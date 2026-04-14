@@ -5,12 +5,13 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
-  let data ="hello"
+  const [data,setdata]=useState("Hello");
   function click()
   {
-    data="demo";
-    alert(
-      "button clicked " + data)
+   
+    // alert(
+    //   "button clicked " + data)
+    setdata("done")
   }
 
   return (
